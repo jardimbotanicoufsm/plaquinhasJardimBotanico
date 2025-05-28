@@ -324,7 +324,7 @@ contadorRow += 1
 # Botao de pesquisar
 botao_pesquisar = ctk.CTkButton(
     tab_automatico_id,
-    text="Importar informações",
+    text="Importar Informações",
     command=preencher_campos_automaticamente_id,
     fg_color=VERDEPLACA,
     hover_color=VERDEPLACADARK
@@ -441,7 +441,7 @@ contadorRow3 += 1
 label_codigo3 = ctk.CTkLabel(tab_nome_cientifico, text="Código", text_color="black")
 label_codigo3.grid(row=contadorRow3, column=0, columnspan=2, padx=20, pady=(10, 0), sticky="w")
 contadorRow3 += 1
-entry_codigo3 = ctk.CTkEntry(tab_nome_cientifico, fg_color="white", border_color=CINZAFRENTE, state="readonly")
+entry_codigo3 = ctk.CTkEntry(tab_nome_cientifico, fg_color="white", border_color=CINZAFRENTE, state="readonly", text_color=CINZADESABILITADO)
 entry_codigo3.grid(row=contadorRow3, column=0, columnspan=2, padx=20, pady=(0, 10), sticky="ew")
 contadorRow3 += 1
 
