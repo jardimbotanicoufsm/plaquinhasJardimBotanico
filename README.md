@@ -16,10 +16,12 @@ Nos modos automáticos, o usuário deve preencher um dos dois seguinte: O id na 
 
 ## Resultado Final
 Este é o arquivo pdf final gerado pelo programa, destinado para impressão:
+
 ![Placa final](./img/4.png "Placa final")
 
 ## Aplicação no mundo real
 Instalamos dez destas plaquinhas no Jardim Botânico da Universidade Federal de Santa Maria! Aqui abaixo está o exemplar de Ingá-feijão com sua plaquinha.
+
 ![Exemplo de placa instalada na árvore](./img/3.jpg "Placa Instalada")
 
 Para usar o gerador basta instalar o executável!
